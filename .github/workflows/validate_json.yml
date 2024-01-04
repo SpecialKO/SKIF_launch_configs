@@ -21,3 +21,4 @@ jobs:
         uses: GrantBirki/json-yaml-validate@v2.5.0
         with:
           comment: "true" # enable comment mode
+          files: "lc.json"
