@@ -1,10 +1,9 @@
 name: Upload lc.json
 on:
   push:
-    paths:
-      - lc.json
-    branches:
-      - main
+    branches: ['main']
+    paths: ['lc.json']
+    
 jobs:
   upload:
     runs-on: ubuntu-latest
