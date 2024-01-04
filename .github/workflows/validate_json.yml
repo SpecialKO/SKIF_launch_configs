@@ -1,8 +1,8 @@
 name: Validate JSON 
 on:
   push:
-    branches:
-      - main
+    branches: ['main']
+    paths: ['lc.json']
   pull_request:
   workflow_dispatch:
 
