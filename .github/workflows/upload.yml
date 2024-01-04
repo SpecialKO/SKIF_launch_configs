@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: json-yaml-validate
+      - name: Validate JSON
         id: json-yaml-validate
         uses: GrantBirki/json-yaml-validate@v2.5.0
         with:
