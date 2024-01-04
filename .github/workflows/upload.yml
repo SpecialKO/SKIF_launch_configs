@@ -5,7 +5,20 @@ on:
     paths: ['lc.json']
     
 jobs:
+  json-yaml-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: json-yaml-validate
+        id: json-yaml-validate
+        uses: GrantBirki/json-yaml-validate@v2.5.0
+        with:
+          comment: "true" # enable comment mode
+          files: "lc.json"
+
   upload:
+    needs: json-yaml-validate
     runs-on: ubuntu-latest
     steps:
       - name: Upload to DO Spaces
