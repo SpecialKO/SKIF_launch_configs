@@ -30,9 +30,12 @@ This example defines a custom `-nostartupmovie` launch configuration for the Ste
 ```
 
 * `17410` is the unique platform app ID of the game. In the case of Steam this is typically just known as the "Steam App ID".
-  * It can be retrieved from SKIF (right click -> Developer -> **Copy app ID** provided Developer mode is turned on),
-  * the link to the Steam storefront page itself  (e.g. https://store.steampowered.com/app/17410/Mirrors_Edge/), or
-  * from the third-party SteamDB resource (e.g. https://steamdb.info/app/17410/info/).
+  * It can be retrieved from SKIF (right click -> Developer -> **Copy app ID** provided Developer mode is turned on).
+     * This is the recommended option as it supports all platforms.
+  * For Steam games, it can also be retrieved from the Steam storefront page link itself.
+     * e.g. https://store.steampowered.com/app/17410/Mirrors_Edge/
+  * Or from the third-party SteamDB resource.
+    * e.g. https://steamdb.info/app/17410/info/
 
 * `Desc` is the name/description that SKIF will use when listing it as an option.
   * This is used in the context menu of games as well as in the "Disable Special K" menu.
