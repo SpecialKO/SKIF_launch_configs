@@ -56,6 +56,38 @@
         "Args": "-game hl2 -steam -novid",
         "Dir": "bin"
       }
+    ],
+    "782330": [
+      {
+        "Desc": "Start from DOOM and not id Launcher, skip intro, loading prompt, log in and no console errors",
+        "Exe": "DOOMEternalx64vk.exe",
+        "Args": "+com_skipIntroVideo 1 +com_skipKeyPressOnLoadScreens 1 +com_skipSignInManager 1 +warning_disable all",
+        "Dir": ""
+      }
+    ],
+    "218620": [
+      {
+        "Desc": "Moderm CPU Instructions, disable gamepad, skip intro and use Steam Match Making",
+        "Exe": "payday2_win32_release.exe",
+        "Args": "-NewCPU -nojoy -skip_intro -steamMM",
+        "Dir": ""
+      }
+    ],
+    "550": [
+      {
+        "Desc": "Low Violence, skip intro and disable motion blur",
+        "Exe": "left4dead2.exe",
+        "Args": "-lv -novid +mat_motion_blur_percent_of_screen_max 0",
+        "Dir": ""
+      }
+    ],
+    "24240": [
+      {
+        "Desc": "Disable gamepad",
+        "Exe": "payday_win32_release.exe",
+        "Args": "-nojoy",
+        "Dir": ""
+      }
     ]
   }
 }
