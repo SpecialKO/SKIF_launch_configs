@@ -1,6 +1,8 @@
 name: Upload lc.json
 on:
   push:
+    paths:
+      - lc.json
     branches:
       - main
 jobs:
