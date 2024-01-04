@@ -1,0 +1,18 @@
+name: Upload lc.json
+on:
+  push:
+    branches:
+      - main
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Upload to DO Spaces
+        uses: actions/checkout@master
+      - uses: BetaHuhn/do-spaces-action@v2
+        with:
+          access_key:   ${{ secrets.ACCESS_KEY}}
+          secret_key:   ${{ secrets.SECRET_KEY }}
+          space_name:   ${{ secrets.SPACE_NAME }}
+          space_region: ${{ secrets.SPACE_REGION }}
+          source:       lc.json
