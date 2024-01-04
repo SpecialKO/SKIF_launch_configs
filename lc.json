@@ -48,6 +48,14 @@
         "Args": "-nolauncher",
         "Dir": ""
       }
+    ],
+    "220": [
+      {
+        "Desc": "Skip intro videos",
+        "Exe": "hl2.exe",
+        "Args": "-game hl2 -steam -novid",
+        "Dir": "bin"
+      }
     ]
   }
 }
