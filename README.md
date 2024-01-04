@@ -1,4 +1,3 @@
-# SKIF_launch_configs
 This repository facilitates collaboration for the managed custom launch configs used within the Special K Injection Frontend (SKIF).
 Note that using a launch config normally bypasses the typical launch process of its digital distribution platform, meaning features such as cloud synchronization etc is often skipped entirely.
 
