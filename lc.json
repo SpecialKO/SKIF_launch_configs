@@ -1,0 +1,53 @@
+{
+  "README": "Any changes made in this file will get lost. Custom entries goes in the lc_user.json file.",
+  "Steam": {
+    "17410": [
+      {
+        "Desc": "Skip intro videos",
+        "Exe": "Binaries/MirrorsEdge.exe",
+        "Args": "-nostartupmovies",
+        "Dir": "Binaries"
+      }
+    ],
+    "203160": [
+      {
+        "Desc": "Skip game launcher",
+        "Exe": "TombRaider.exe",
+        "Args": "-nolauncher",
+        "Dir": ""
+      }
+    ],
+    "391220": [
+      {
+        "Desc": "Skip game launcher",
+        "Exe": "ROTTR.exe",
+        "Args": "-nolauncher",
+        "Dir": ""
+      }
+    ],
+    "750920": [
+      {
+        "Desc": "Skip game launcher",
+        "Exe": "SOTTR.exe",
+        "Args": "-nolauncher",
+        "Dir": ""
+      }
+    ],
+    "1817070": [
+      {
+        "Desc": "Skip game launcher",
+        "Exe": "Spider-Man.exe",
+        "Args": "-nolauncher",
+        "Dir": ""
+      }
+    ],
+    "1895880": [
+      {
+        "Desc": "Skip game launcher",
+        "Exe": "RiftApart.exe",
+        "Args": "-nolauncher",
+        "Dir": ""
+      }
+    ]
+  }
+}
