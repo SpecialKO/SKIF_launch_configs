@@ -29,6 +29,8 @@ This example defines a custom `-nostartupmovie` launch configuration for the Ste
 }
 ```
 
+* `Steam` is the platform identifier. See [Supported platforms](#supported-platforms) for more details about that.
+
 * `17410` is the unique platform app ID of the game. In the case of Steam this is typically just known as the "Steam App ID".
   * It can be retrieved from SKIF (right click -> Developer -> **Copy app ID** provided Developer mode is turned on).
      * This is the recommended option as it supports all platforms.
