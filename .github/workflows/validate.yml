@@ -2,7 +2,6 @@ name: Validate JSON
 on:
   pull_request:
     paths: ['lc.json']
-  workflow_dispatch:
 
 permissions:
   contents: read
@@ -20,3 +19,7 @@ jobs:
         with:
           comment: "true" # enable comment mode
           files: "lc.json"
+
+      - uses: hmarr/auto-approve-action@v3
+        with:
+          review-message: "Auto approved due to passing validation"
