@@ -65,7 +65,7 @@ The platform identifier (`<platform-id>`) is the same as shown as the "Platform"
 | `Steam`             | Best supported platform, with few known problems or challenges when using custom launch configs.                           |
 | `GOG`               | Partially supported platform, though limited to launches outside of the GOG Galaxy client for now.                         |
 | `Epic`              | Very little, as custom launch configs can only be used with (DRM-free) games that allows skipping the Epic Games Launcher. |
-| `Xbpx`              | Extremely little use, due to the special lauch requirements of these games.                                                |
+| `Xbox`              | Extremely little use, due to the special lauch requirements of these games.                                                |
 | `Custom`            | Any manually added game, though these entries should be done in the separate `lc_user.json` file.                          |
 
 ## Examples
