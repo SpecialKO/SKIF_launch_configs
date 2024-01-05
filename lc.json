@@ -9,6 +9,14 @@
         "Dir": "Binaries"
       }
     ],
+    "782330": [
+      {
+        "Desc": "Skip launcher2",
+        "Exe": "DOOMEternalx64vk.exe",
+        "Args": "Derp",
+        "Dir": ""
+      }
+    ],
     "203160": [
       {
         "Desc": "Skip game launcher",
