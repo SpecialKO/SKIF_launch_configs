@@ -19,6 +19,15 @@
         "Dir": ""
       }
     ],
+    "1172470_Name": "Apex Legends",
+    "1172470": [
+      {
+        "Desc": "Show FPS,
+        "Exe": "EasyAntiCheat_launcher.exe",
+        "Args": "+cl_showfps 4",
+        "Dir": ""
+      }
+    ],
     "346110_Name": "ARK: Survival Evolved",
     "346110": [
       {
