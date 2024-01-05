@@ -21,4 +21,4 @@ jobs:
 
       - uses: hmarr/auto-approve-action@v3
         with:
-          review-message: "Auto approved due to passing validation"
+          review-message: "Auto approved due to passing JSON validation."
