@@ -56,6 +56,14 @@
         "Args": "-game hl2 -steam -novid",
         "Dir": "bin"
       }
+    ],
+    "782330": [
+      {
+        "Desc": "Skip launcher",
+        "Exe": "DOOMEternalx64vk.exe",
+        "Args": "",
+        "Dir": ""
+      }
     ]
   }
 }
