@@ -70,7 +70,11 @@ The platform identifier (`<platform-id>`) is the same as shown as the "Platform"
 
 ## Examples
 
-This example defines an intro skip option for the Steam copy of [Mirror's Edge](https://steamdb.info/app/17410/) as well as two custom launch options for [Half-Life 2](https://steamdb.info/app/220/).
+This example defines a few different launch configurations for a few Steam games:
+
+* an intro skip option for [Mirror's Edge](https://steamdb.info/app/17410/)
+* a launcher skip for [Doom Eternal](https://steamdb.info/app/782330/)
+* as well as two custom launch options for [Half-Life 2](https://steamdb.info/app/220/)
 
 ```json
 {
@@ -82,6 +86,15 @@ This example defines an intro skip option for the Steam copy of [Mirror's Edge](
         "Exe": "Binaries/MirrorsEdge.exe",
         "Args": "-nostartupmovies",
         "Dir": "Binaries"
+      }
+    ],
+    "782330_Name": "Doom Eternal",
+    "782330": [
+      {
+        "Desc": "Skip launcher",
+        "Exe": "DOOMEternalx64vk.exe",
+        "Args": "",
+        "Dir": ""
       }
     ],
     "220_Name": "Half-Life 2",
