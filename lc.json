@@ -1,75 +1,339 @@
 {
   "README": "Any changes made in this file will get lost. Custom entries goes in the lc_user.json file.",
   "Steam": {
-    "17410_Name": "Mirror's Edge",
-    "17410": [
+    "813780_Name": "Age of Empires II: Definitive Edition",
+    "813780": [
       {
-        "Desc": "Skip intro videos",
-        "Exe": "Binaries/MirrorsEdge.exe",
-        "Args": "-nostartupmovies",
-        "Dir": "Binaries"
-      }
-    ],
-    "203160_Name": "Tomb Raider (2013)",
-    "203160": [
-      {
-        "Desc": "Skip game launcher",
-        "Exe": "TombRaider.exe",
-        "Args": "-nolauncher",
+        "Desc": "Skip Intro Videos",
+        "Exe": "AoE2DE_s.exe",
+        "Args": "SKIPINTRO",
         "Dir": ""
       }
     ],
-    "391220_Name": "Rise of the Tomb Raider",
-    "391220": [
+    "1172470_Name": "Apex Legends",
+    "1172470": [
       {
-        "Desc": "Skip game launcher",
-        "Exe": "ROTTR.exe",
-        "Args": "-nolauncher",
+        "Desc": "Show FPS",
+        "Exe": "EasyAntiCheat_launcher.exe",
+        "Args": "+cl_showfps 4",
         "Dir": ""
       }
     ],
-    "750920_Name": "Shadow of the Tomb Raider",
-    "750920": [
+    "346110_Name": "ARK: Survival Evolved",
+    "346110": [
       {
-        "Desc": "Skip game launcher",
-        "Exe": "SOTTR.exe",
-        "Args": "-nolauncher",
+        "Desc": "Max CPU Usage",
+        "Exe": "ShooterGame_BE.exe",
+        "Args": "-high -useallavailablecores",
+        "Dir": "Win64"
+      }
+    ],
+    "1086940_Name": "Baldur's Gate 3",
+    "1086940": [
+      {
+        "Desc": "DX12 Skip Launcher",
+        "Exe": "bg3.exe",
+        "Args": "--skip-launcher",
+        "Dir": ""
+      },
+      {
+        "Desc": "DX11 Skip Launcher",
+        "Exe": "bg3_dx11.exe",
+        "Args": "--skip-launcher",
         "Dir": ""
       }
     ],
-    "1817070_Name": "Marvel's Spider-Man Remastered",
-    "1817070": [
+    "1158310_Name": "Crusader Kings III",
+    "1158310": [
       {
-        "Desc": "Skip game launcher",
-        "Exe": "Spider-Man.exe",
-        "Args": "-nolauncher",
+        "Desc": "Debug Mode",
+        "Exe": "ck3.exe",
+        "Args": "-debug_mode",
+        "Dir": "binaries"
+      }
+    ],
+    "1091500_Name": "Cyberpunk 2077",
+    "1091500": [
+      {
+        "Desc": "Skip Launcher & Intros",
+        "Exe": "Cyberpunk2077.exe",
+        "Args": "--launcher-skip -skipStartScreen -modded",
+        "Dir": "x64"
+      }
+    ],
+    "221100_Name": "DayZ",
+    "221100": [
+      {
+        "Desc": "Skip Intros",
+        "Exe": "DayZ_BE.exe",
+        "Args": "-nosplash",
         "Dir": ""
       }
     ],
-    "1895880_Name": "Ratchet & Clank: Rift Apart",
-    "1895880": [
+    "381210_Name": "Dead by Daylight",
+    "381210": [
       {
-        "Desc": "Skip game launcher",
-        "Exe": "RiftApart.exe",
-        "Args": "-nolauncher",
+        "Desc": "Force DX12",
+        "Exe": "DeadByDaylight.exe",
+        "Args": "-dx12",
+        "Dir": ""
+      }
+    ],
+    "782330_Name": "Doom Eternal",
+    "782330": [
+      {
+        "Desc": "Skip Launcher",
+        "Exe": "DOOMEternalx64vk.exe",
+        "Args": "",
+        "Dir": ""
+      }
+    ],
+    "570_Name": "Dota 2",
+    "570": [
+      {
+        "Desc": "Disable Mouse Acceleration",
+        "Exe": "dota2.exe",
+        "Args": "-noforcemaccel -noforcemspd -useforcedmparms",
+        "Dir": ""
+      }
+    ],
+    "227300_Name": "Euro Truck Simulator 2",
+    "227300": [
+      {
+        "Desc": "Safe Mode",
+        "Exe": "eurotrucks2.exe",
+        "Args": "-safe",
+        "Dir": "win_x64"
+      },
+      {
+        "Desc": "Skip Intro",
+        "Exe": "eurotrucks2.exe",
+        "Args": "-nointro",
+        "Dir": "win_x64"
+      },
+      {
+        "Desc": "Bypass Mod Manager",
+        "Exe": "eurotrucks2.exe",
+        "Args": "-force_mods",
+        "Dir": "win_x64"
+      }
+    ],
+    "1248130_Name": "Farming Simulator 22",
+    "1248130": [
+      {
+        "Desc": "Disable FPS Limit",
+        "Exe": "FarmingSimulator2022Game.exe",
+        "Args": "-disableFramerateLimiter",
+        "Dir": "x64"
+      }
+    ],
+    "271590_Name": "Grand Theft Auto V",
+    "271590": [
+      {
+        "Desc": "Safe Mode",
+        "Exe": "PlayGTAV.exe",
+        "Args": "-safemode",
+        "Dir": ""
+      },
+      {
+        "Desc": "Benchmark",
+        "Exe": "PlayGTAV.exe",
+        "Args": "-benchmark",
+        "Dir": ""
+      },
+      {
+        "Desc": "Offline Mode",
+        "Exe": "PlayGTAV.exe",
+        "Args": "-scofflineonly",
         "Dir": ""
       }
     ],
     "220_Name": "Half-Life 2",
     "220": [
       {
-        "Desc": "Skip intro videos",
+        "Desc": "Skip Intro Videos",
         "Exe": "hl2.exe",
         "Args": "-game hl2 -steam -novid",
         "Dir": "bin"
       }
     ],
-    "782330_Name": "Doom Eternal",
-    "782330": [
+    "1599340_Name": "Lost Ark",
+    "1599340": [
       {
-        "Desc": "Skip launcher",
-        "Exe": "DOOMEternalx64vk.exe",
-        "Args": "",
+        "Desc": "Skip Intro",
+        "Exe": "Launch_Game.exe",
+        "Args": "-nomoviestartup",
+        "Dir": "Win64"
+      }
+    ],
+    "1817070_Name": "Marvel's Spider-Man Remastered",
+    "1817070": [
+      {
+        "Desc": "Skip Launcher",
+        "Exe": "Spider-Man.exe",
+        "Args": "-nolauncher",
+        "Dir": ""
+      }
+    ],
+    "17410_Name": "Mirror's Edge",
+    "17410": [
+      {
+        "Desc": "Skip Intro Videos",
+        "Exe": "Binaries/MirrorsEdge.exe",
+        "Args": "-nostartupmovies",
+        "Dir": "Binaries"
+      }
+    ],
+    "238960_Name": "Path of Exile",
+    "238960": [
+      {
+        "Desc": "Skip Intro",
+        "Exe": "PathOfExileSteam.exe",
+        "Args": "--nopatch--nologo",
+        "Dir": ""
+      }
+    ],
+    "578080_Name": "PUBG: BATTLEGROUNDS",
+    "578080": [
+      {
+        "Desc": "Green Blood",
+        "Exe": "TslGame_BE.exe",
+        "Args": "-KoreanRating",
+        "Dir": ""
+      }
+    ],
+    "1895880_Name": "Ratchet & Clank: Rift Apart",
+    "1895880": [
+      {
+        "Desc": "Skip Launcher",
+        "Exe": "RiftApart.exe",
+        "Args": "-nolauncher",
+        "Dir": ""
+      }
+    ],
+    "1174180_Name": "Red Dead Redemption 2",
+    "1174180": [
+      {
+        "Desc": "Rebalance CPU Workload",
+        "Exe": "PlayRDR2.exe",
+        "Args": "-cpuLoadRebalancing",
+        "Dir": ""
+      },
+      {
+        "Desc": "Disable Social Club",
+        "Exe": "PlayRDR2.exe",
+        "Args": "-scofflineonly",
+        "Dir": ""
+      },
+      {
+        "Desc": "Safe Mode",
+        "Exe": "PlayRDR2.exe",
+        "Args": "-safemode",
+        "Dir": ""
+      }
+    ],
+    "294100_Name": "RimWorld",
+    "294100": [
+      {
+        "Desc": "Force Borderless Fullscreen",
+        "Exe": "RimWorldWin.exe",
+        "Args": "-popupwindow",
+        "Dir": ""
+      }
+    ],
+    "391220_Name": "Rise of the Tomb Raider",
+    "391220": [
+      {
+        "Desc": "Skip Launcher",
+        "Exe": "ROTTR.exe",
+        "Args": "-nolauncher",
+        "Dir": ""
+      }
+    ],
+    "252490_Name": "Rust",
+    "252490": [
+      {
+        "Desc": "Force DX11 With Multithreading",
+        "Exe": "rust.exe",
+        "Args": "-force-d3d11-no-singlethreaded",
+        "Dir": ""
+      }
+    ],
+    "750920_Name": "Shadow of the Tomb Raider",
+    "750920": [
+      {
+        "Desc": "Skip Launcher",
+        "Exe": "SOTTR.exe",
+        "Args": "-nolauncher",
+        "Dir": ""
+      }
+    ],
+    "440_Name": "Team Fortress 2",
+    "440": [
+      {
+        "Desc": "Skip Intro & Disable Controller",
+        "Exe": "hl2.exe",
+        "Args": "-novid -nojoy",
+        "Dir": ""
+      }
+    ],
+    "250900_Name": "The Binding of Isaac: Rebirth",
+    "250900": [
+      {
+        "Desc": "Enable Mod Debugging",
+        "Exe": "isaac-ng.exe",
+        "Args": "--luadebug",
+        "Dir": ""
+      }
+    ],
+    "292030_Name": "The Witcher 3: Wild Hunt",
+    "292030": [
+      {
+        "Desc": "Skip RED Launcher",
+        "Exe": "redprelauncher.exe",
+        "Args": "--launcher-skip",
+        "Dir": ""
+      }
+    ],
+    "203160_Name": "Tomb Raider (2013)",
+    "203160": [
+      {
+        "Desc": "Skip Launcher",
+        "Exe": "TombRaider.exe",
+        "Args": "-nolauncher",
+        "Dir": ""
+      }
+    ],
+    "892970_Name": "Valheim",
+    "892970": [
+      {
+        "Desc": "Enable Console",
+        "Exe": "valheim.exe",
+        "Args": "-console",
+        "Dir": ""
+      },
+      {
+        "Desc": "Force Vulkan",
+        "Exe": "valheim.exe",
+        "Args": "-force-vulkan",
+        "Dir": ""
+      }
+    ],
+    "438100_Name": "VRChat",
+    "438100": [
+      {
+        "Desc": "Force Desktop Mode (No VR)",
+        "Exe": "launch.exe",
+        "Args": "--no-vr",
+        "Dir": ""
+      }
+    ],
+    "236390_Name": "War Thunder",
+    "236390": [
+      {
+        "Desc": "Force DX12",
+        "Exe": "aces.exe",
+        "Args": "-forcestart -driver:dx12",
         "Dir": ""
       }
     ]
