@@ -55,10 +55,10 @@
     "1091500_Name": "Cyberpunk 2077",
     "1091500": [
       {
-        "Desc": "Skip Launcher & Intros",
-        "Exe": "Cyberpunk2077.exe",
-        "Args": "--launcher-skip -skipStartScreen -modded",
-        "Dir": "x64"
+        "Desc": "Skip Launcher & Breaching Screen",
+        "Exe": "bin/x64/Cyberpunk2077.exe",
+        "Args": "-skipStartScreen -modded",
+        "Dir": ""
       }
     ],
     "221100_Name": "DayZ",
