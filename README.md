@@ -17,6 +17,7 @@ This example defines a custom `-nostartupmovie` launch configuration for the Ste
 ```json
 {
   "Steam": {
+    "17410_Name": "Mirror's Edge",
     "17410": [
       {
         "Desc": "Skip intro videos",
@@ -30,6 +31,8 @@ This example defines a custom `-nostartupmovie` launch configuration for the Ste
 ```
 
 * `Steam` is the platform identifier. See [Supported platforms](#supported-platforms) for more details about that.
+
+* `17410_Name` is the name of the game. This key is not actually used &mdash; it is only present to make it easier for editors to identify games.
 
 * `17410` is the unique platform app ID of the game. In the case of Steam this is typically just known as the "Steam App ID".
   * It can be retrieved from SKIF (right click -> Developer -> **Copy app ID** provided Developer mode is turned on).
@@ -72,6 +75,7 @@ This example defines an intro skip option for the Steam copy of [Mirror's Edge](
 ```json
 {
   "Steam": {
+    "17410_Name": "Mirror's Edge",
     "17410": [
       {
         "Desc": "Skip intro videos",
@@ -80,6 +84,7 @@ This example defines an intro skip option for the Steam copy of [Mirror's Edge](
         "Dir": "Binaries"
       }
     ],
+    "220_Name": "Half-Life 2",
     "220": [
       {
         "Desc": "Skip intro videos",
