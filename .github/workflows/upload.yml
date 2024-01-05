@@ -3,6 +3,7 @@ on:
   push:
     branches: ['main']
     paths: ['lc.json']
+  workflow_dispatch:
     
 jobs:
   json-yaml-validate:
