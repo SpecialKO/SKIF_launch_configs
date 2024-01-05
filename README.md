@@ -17,6 +17,7 @@ This example defines a custom `-nostartupmovie` launch configuration for the Ste
 ```json
 {
   "Steam": {
+    "17410_Name": "Mirror's Edge",
     "17410": [
       {
         "Desc": "Skip intro videos",
@@ -29,7 +30,11 @@ This example defines a custom `-nostartupmovie` launch configuration for the Ste
 }
 ```
 
-* `17410` is the unique platform app ID of the game. In the case of Steam this is typically just known as the "Steam App ID".
+* `Steam` is the platform identifier (`<platform-id>`). See [Supported platforms](#supported-platforms) for more details about that.
+
+* `17410_Name` is the human-readable name of the game. This key is not actually used &mdash; it is only present to make it easier for editors to identify games. The name of this key should always be `<platform-app-id>_Name`.
+
+* `17410` is the unique platform app ID (`<platform-app-id>`) of the game. In the case of Steam this is typically just known as the "Steam App ID".
   * It can be retrieved from SKIF (right click -> Developer -> **Copy app ID** provided Developer mode is turned on).
      * This is the recommended option as it supports all platforms.
   * For Steam games, it can also be retrieved from the Steam storefront page link itself.
@@ -41,32 +46,40 @@ This example defines a custom `-nostartupmovie` launch configuration for the Ste
   * This is used in the context menu of games as well as in the "Disable Special K" menu.
   * Note that SKIF will omit listing launch options in the "Disable Special K" menu that share the same executable as another option.
 
-* `Exe` holds the relative path to the executable to launch when the launch config is used.
+* `Exe` holds the relative path to the executable to start.
+  * The path is relative to the install folder of the game.
 
-* `Args` holds the command-line arguments to start the executable with. These are known as the "launch options" in the Steam client and elsewhere.
+* `Args` holds the command-line arguments to start the executable with.
+  * These are known as the "launch options" in the Steam client and elsewhere.
 
-* `Dir` holds the relative working directory used when launching the executable. This can be empty, in which case the folder of the executable is used instead.
+* `Dir` holds the relative working directory used for the launched executable. This can be empty, in which case the folder of the executable is used instead.
+  * The path is relative to the install folder of the game.
 
 ## Supported platforms
 
 All platforms in SKIF parses and can list custom launch options, though its usefulness is primarily limited to Steam, GOG, and Custom games (`lc_user.json`).
-The platform identifier (<platform-id>) is the same as the "Platform" label shown in the app:
+The platform identifier (`<platform-id>`) is the same as shown as the "Platform" label in the app.
 
 | Platform ID         | State of support                                                                                                           |
 | ------------------: | :------------------------------------------------------------------------------------------------------------------------- |
 | `Steam`             | Best supported platform, with few known problems or challenges when using custom launch configs.                           |
 | `GOG`               | Partially supported platform, though limited to launches outside of the GOG Galaxy client for now.                         |
 | `Epic`              | Very little, as custom launch configs can only be used with (DRM-free) games that allows skipping the Epic Games Launcher. |
-| `Xbpx`              | Extremely little use, due to the special lauch requirements of these games.                                                |
+| `Xbox`              | Extremely little use, due to the special lauch requirements of these games.                                                |
 | `Custom`            | Any manually added game, though these entries should be done in the separate `lc_user.json` file.                          |
 
 ## Examples
 
-This example defines an intro skip option for the Steam copy of [Mirror's Edge](https://steamdb.info/app/17410/) as well as two custom launch options for [Helltaker](https://steamdb.info/app/1289310/).
+This example defines a few different launch configurations for a few Steam games:
+
+* an intro skip option for [Mirror's Edge](https://steamdb.info/app/17410/)
+* a launcher skip for [Doom Eternal](https://steamdb.info/app/782330/)
+* as well as two custom launch options for [Half-Life 2](https://steamdb.info/app/220/)
 
 ```json
 {
   "Steam": {
+    "17410_Name": "Mirror's Edge",
     "17410": [
       {
         "Desc": "Skip intro videos",
@@ -75,18 +88,28 @@ This example defines an intro skip option for the Steam copy of [Mirror's Edge](
         "Dir": "Binaries"
       }
     ],
-    "1289310": [
+    "782330_Name": "Doom Eternal",
+    "782330": [
       {
-        "Desc": "Helltaker vs. the World (Special K dummy entry)",
-        "Exe": "Helltaker.exe",
-        "Args": "-TheWorld",
+        "Desc": "Skip launcher",
+        "Exe": "DOOMEternalx64vk.exe",
+        "Args": "",
         "Dir": ""
+      }
+    ],
+    "220_Name": "Half-Life 2",
+    "220": [
+      {
+        "Desc": "Skip intro videos",
+        "Exe": "hl2.exe",
+        "Args": "-game hl2 -steam -novid",
+        "Dir": "bin"
       },
       {
-        "Desc": "Helltaker Takes Off (Special K dummy entry)",
-        "Exe": "Helltaker.exe",
-        "Args": "-TakesOff",
-        "Dir": ""
+        "Desc": "Enable the console",
+        "Exe": "hl2.exe",
+        "Args": "-game hl2 -steam -console",
+        "Dir": "bin"
       }
     ]
   }
