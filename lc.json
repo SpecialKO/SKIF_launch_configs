@@ -1,6 +1,7 @@
 {
   "README": "Any changes made in this file will get lost. Custom entries goes in the lc_user.json file.",
   "Steam": {
+    "17410_Name": "Mirror's Edge",
     "17410": [
       {
         "Desc": "Skip intro videos",
@@ -9,6 +10,7 @@
         "Dir": "Binaries"
       }
     ],
+    "203160_Name": "Tomb Raider (2013)",
     "203160": [
       {
         "Desc": "Skip game launcher",
@@ -17,6 +19,7 @@
         "Dir": ""
       }
     ],
+    "391220_Name": "Rise of the Tomb Raider",
     "391220": [
       {
         "Desc": "Skip game launcher",
@@ -25,6 +28,7 @@
         "Dir": ""
       }
     ],
+    "750920_Name": "Shadow of the Tomb Raider",
     "750920": [
       {
         "Desc": "Skip game launcher",
@@ -33,6 +37,7 @@
         "Dir": ""
       }
     ],
+    "1817070_Name": "Marvel's Spider-Man Remastered",
     "1817070": [
       {
         "Desc": "Skip game launcher",
@@ -41,6 +46,7 @@
         "Dir": ""
       }
     ],
+    "1895880_Name": "Ratchet & Clank: Rift Apart",
     "1895880": [
       {
         "Desc": "Skip game launcher",
@@ -49,6 +55,7 @@
         "Dir": ""
       }
     ],
+    "220_Name": "Half-Life 2",
     "220": [
       {
         "Desc": "Skip intro videos",
@@ -57,6 +64,7 @@
         "Dir": "bin"
       }
     ],
+    "782330_Name": "Doom Eternal",
     "782330": [
       {
         "Desc": "Skip launcher",
