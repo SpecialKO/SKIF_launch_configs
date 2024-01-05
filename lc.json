@@ -31,15 +31,15 @@
     "1086940_Name": "Baldur's Gate 3",
     "1086940": [
       {
-        "Desc": "DX12 Skip Launcher",
-        "Exe": "bg3.exe",
-        "Args": "--skip-launcher",
+        "Desc": "Skip Launcher (Vulkan)",
+        "Exe": "bin/bg3.exe",
+        "Args": "",
         "Dir": ""
       },
       {
-        "Desc": "DX11 Skip Launcher",
-        "Exe": "bg3_dx11.exe",
-        "Args": "--skip-launcher",
+        "Desc": "Skip Launcher (DirectX 11)",
+        "Exe": "bin/bg3_dx11.exe",
+        "Args": "",
         "Dir": ""
       }
     ],
