@@ -340,7 +340,7 @@
     "782330_Name": "DOOM Eternal",
     "782330": [
       {
-        "Desc": "Start from DOOM and not id Launcher, skip intro, loading prompt, log in and no console errors",
+        "Desc": "Skips id Launcher, skip intro, loading prompt, log in and no console errors",
         "Exe": "DOOMEternalx64vk.exe",
         "Args": "+com_skipIntroVideo 1 +com_skipKeyPressOnLoadScreens 1 +com_skipSignInManager 1 +warning_disable all",
         "Dir": ""
