@@ -31,15 +31,15 @@
     "1086940_Name": "Baldur's Gate 3",
     "1086940": [
       {
-        "Desc": "DX12 Skip Launcher",
-        "Exe": "bg3.exe",
-        "Args": "--skip-launcher",
+        "Desc": "Skip Launcher (Vulkan)",
+        "Exe": "bin/bg3.exe",
+        "Args": "",
         "Dir": ""
       },
       {
-        "Desc": "DX11 Skip Launcher",
-        "Exe": "bg3_dx11.exe",
-        "Args": "--skip-launcher",
+        "Desc": "Skip Launcher (DirectX 11)",
+        "Exe": "bin/bg3_dx11.exe",
+        "Args": "",
         "Dir": ""
       }
     ],
@@ -55,10 +55,10 @@
     "1091500_Name": "Cyberpunk 2077",
     "1091500": [
       {
-        "Desc": "Skip Launcher & Intros",
-        "Exe": "Cyberpunk2077.exe",
-        "Args": "--launcher-skip -skipStartScreen -modded",
-        "Dir": "x64"
+        "Desc": "Skip Launcher & Breaching Screen",
+        "Exe": "bin/x64/Cyberpunk2077.exe",
+        "Args": "-skipStartScreen -modded",
+        "Dir": ""
       }
     ],
     "221100_Name": "DayZ",

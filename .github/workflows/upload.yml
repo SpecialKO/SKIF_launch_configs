@@ -6,20 +6,19 @@ on:
   workflow_dispatch:
     
 jobs:
-  json-yaml-validate:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
       - name: Validate JSON
-        id: json-yaml-validate
         uses: GrantBirki/json-yaml-validate@v2.6.0
         with:
           comment: "true" # enable comment mode
           files: "lc.json"
 
   upload:
-    needs: json-yaml-validate
+    needs: validate
     runs-on: ubuntu-latest
     steps:
       - name: Upload to DO Spaces
