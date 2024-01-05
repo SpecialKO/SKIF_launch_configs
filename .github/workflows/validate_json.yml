@@ -16,7 +16,7 @@ jobs:
 
       - name: Validate JSON
         id: json-yaml-validate
-        uses: GrantBirki/json-yaml-validate@v2.*
+        uses: GrantBirki/json-yaml-validate@v2.*.*
         with:
           comment: "true" # enable comment mode
           files: "lc.json"
