@@ -1,4 +1,4 @@
-name: Upload lc.json
+name: Upload JSON
 on:
   push:
     branches: ['main']
