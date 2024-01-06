@@ -295,7 +295,7 @@
     "252490_Name": "Rust",
     "252490": [
       {
-        "Desc": "Force DX11 With Multithreading",
+        "Desc": "Force DirectX 11 With Multithreading",
         "Exe": "rust.exe",
         "Args": "-force-d3d11-no-singlethreaded",
         "Dir": ""
