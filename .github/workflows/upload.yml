@@ -23,7 +23,7 @@ jobs:
     steps:
       - name: Upload to DO Spaces
         uses: actions/checkout@master
-      - uses: BetaHuhn/do-spaces-action@v2
+      - uses: BetaHuhn/do-spaces-action@aa8b15a2fce604742dd74d2dbaddb42a584c3b98
         with:
           access_key:   ${{ secrets.DO_ACCESS_KEY   }}
           secret_key:   ${{ secrets.DO_SECRET_KEY   }}
