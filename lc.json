@@ -109,7 +109,7 @@
     "381210_Name": "Dead by Daylight",
     "381210": [
       {
-        "Desc": "Force DX12",
+        "Desc": "Force DirectX 12",
         "Exe": "DeadByDaylight.exe",
         "Args": "-dx12",
         "Dir": ""
@@ -370,9 +370,15 @@
     "292030_Name": "The Witcher 3: Wild Hunt",
     "292030": [
       {
-        "Desc": "Skip RED Launcher (DX12)",
-        "Exe": "redprelauncher.exe",
-        "Args": "--launcher-skip",
+        "Desc": "Skip Launcher (DirectX 12)",
+        "Exe": "bin/x64_dx12/witcher3.exe",
+        "Args": "",
+        "Dir": ""
+      },
+      {
+        "Desc": "Skip Launcher (DirectX 11)",
+        "Exe": "bin/x64/witcher3.exe",
+        "Args": "",
         "Dir": ""
       }
     ],
