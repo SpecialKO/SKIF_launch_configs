@@ -23,9 +23,9 @@
     "346110": [
       {
         "Desc": "Max CPU Usage",
-        "Exe": "ShooterGame_BE.exe",
+        "Exe": "ShooterGame/Binaries/Win64/ShooterGame_BE.exe",
         "Args": "-high -useallavailablecores",
-        "Dir": "Win64"
+        "Dir": "ShooterGame/Binaries/Win64"
       }
     ],
     "1086940_Name": "Baldur's Gate 3",
@@ -43,11 +43,47 @@
         "Dir": ""
       }
     ],
+    "255710_Name": "Cities: Skylines",
+    "255710": [
+      {
+        "Desc": "Immediately Load Last Save",
+        "Exe": "Cities.exe",
+        "Args": "--continuelastsave",
+        "Dir": ""
+      },
+      {
+        "Desc": "Disable Steam Workshop & Mods",
+        "Exe": "Cities.exe",
+        "Args": "-noWorkshopd -disableMods",
+        "Dir": ""
+      }
+    ],
+    "870780_Name": "Control",
+    "870780": [
+      {
+        "Desc": "DirectX 11",
+        "Exe": "control.exe",
+        "Args": "-dx11",
+        "Dir": ""
+      },
+      {
+        "Desc": "DirectX 12",
+        "Exe": "control.exe",
+        "Args": "-dx12",
+        "Dir": ""
+      }
+    ],
     "1158310_Name": "Crusader Kings III",
     "1158310": [
       {
+        "Desc": "Skip Launcher",
+        "Exe": "binaries/ck3.exe",
+        "Args": "",
+        "Dir": "binaries"
+      },
+      {
         "Desc": "Debug Mode",
-        "Exe": "ck3.exe",
+        "Exe": "binaries/ck3.exe",
         "Args": "-debug_mode",
         "Dir": "binaries"
       }
@@ -66,7 +102,7 @@
       {
         "Desc": "Skip Intros",
         "Exe": "DayZ_BE.exe",
-        "Args": "-nosplash",
+        "Args": "-exe DayZ_x64.exe -nosplash",
         "Dir": ""
       }
     ],
@@ -101,28 +137,28 @@
     "227300": [
       {
         "Desc": "Safe Mode",
-        "Exe": "eurotrucks2.exe",
+        "Exe": "bin/win_x64/eurotrucks2.exe",
         "Args": "-safe",
-        "Dir": "win_x64"
+        "Dir": ""
       },
       {
         "Desc": "Skip Intro",
-        "Exe": "eurotrucks2.exe",
+        "Exe": "bin/win_x64/eurotrucks2.exe",
         "Args": "-nointro",
-        "Dir": "win_x64"
+        "Dir": ""
       },
       {
         "Desc": "Bypass Mod Manager",
-        "Exe": "eurotrucks2.exe",
+        "Exe": "bin/win_x64/eurotrucks2.exe",
         "Args": "-force_mods",
-        "Dir": "win_x64"
+        "Dir": ""
       }
     ],
     "1248130_Name": "Farming Simulator 22",
     "1248130": [
       {
         "Desc": "Disable FPS Limit",
-        "Exe": "FarmingSimulator2022Game.exe",
+        "Exe": "x64/FarmingSimulator2022Game.exe",
         "Args": "-disableFramerateLimiter",
         "Dir": "x64"
       }
@@ -157,15 +193,6 @@
         "Dir": "bin"
       }
     ],
-    "1599340_Name": "Lost Ark",
-    "1599340": [
-      {
-        "Desc": "Skip Intro",
-        "Exe": "Launch_Game.exe",
-        "Args": "-nomoviestartup",
-        "Dir": "Win64"
-      }
-    ],
     "1817070_Name": "Marvel's Spider-Man Remastered",
     "1817070": [
       {
@@ -190,6 +217,21 @@
         "Desc": "Skip Intro",
         "Exe": "PathOfExileSteam.exe",
         "Args": "--nopatch--nologo",
+        "Dir": ""
+      }
+    ],
+    "108600_Name": "Project Zomboid",
+    "108600": [
+      {
+        "Desc": "Debug Mode (32)",
+        "Exe": "ProjectZomboid32.exe",
+        "Args": "-Ddebug",
+        "Dir": ""
+      },
+      {
+        "Desc": "Debug Mode (64)",
+        "Exe": "ProjectZomboid64.exe",
+        "Args": "-Ddebug",
         "Dir": ""
       }
     ],
@@ -259,6 +301,45 @@
         "Dir": ""
       }
     ],
+    "526870_Name": "Satisfactory",
+      "526870": [
+        {
+          "Desc": "Skip Intro",
+          "Exe": "FactoryGame.exe",
+          "Args": "-NO_EOS_OVERLAY -nosplash",
+          "Dir": ""
+        },
+        {
+          "Desc": "DirectX 11",
+          "Exe": "FactoryGame.exe",
+          "Args": "-NO_EOS_OVERLAY -dx11",
+          "Dir": ""
+        },
+        {
+          "Desc": "DirectX 12",
+          "Exe": "FactoryGame.exe",
+          "Args": "-NO_EOS_OVERLAY -dx12",
+          "Dir": ""
+        },
+        {
+          "Desc": "Vulkan",
+          "Exe": "FactoryGame.exe",
+          "Args": "-NO_EOS_OVERLAY -vulkan",
+          "Dir": ""
+        },
+        {
+          "Desc": "Disable MP Features",
+          "Exe": "FactoryGame.exe",
+          "Args": "-NO_EOS_OVERLAY -NoMultiplayer",
+          "Dir": ""
+        },
+        {
+          "Desc": "Disable Steam connectivity",
+          "Exe": "FactoryGame.exe",
+          "Args": "-NO_EOS_OVERLAY -NoSteamClient",
+          "Dir": ""
+        }
+      ],
     "750920_Name": "Shadow of the Tomb Raider",
     "750920": [
       {
@@ -273,7 +354,7 @@
       {
         "Desc": "Skip Intro & Disable Controller",
         "Exe": "hl2.exe",
-        "Args": "-novid -nojoy",
+        "Args": "-steam -game tf -novid -nojoy",
         "Dir": ""
       }
     ],
@@ -289,7 +370,7 @@
     "292030_Name": "The Witcher 3: Wild Hunt",
     "292030": [
       {
-        "Desc": "Skip RED Launcher",
+        "Desc": "Skip RED Launcher (DX12)",
         "Exe": "redprelauncher.exe",
         "Args": "--launcher-skip",
         "Dir": ""
@@ -307,7 +388,7 @@
     "892970_Name": "Valheim",
     "892970": [
       {
-        "Desc": "Enable Console",
+        "Desc": "Enable Console (F5)",
         "Exe": "valheim.exe",
         "Args": "-console",
         "Dir": ""
