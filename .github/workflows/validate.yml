@@ -1,15 +1,14 @@
 name: Validate JSON 
 on:
-  pull_request:
+  pull_request_target:
     paths: ['lc.json']
-
-permissions:
-  contents: read
-  pull-requests: write # enable write permissions for pull request comments
 
 jobs:
   validate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
 
