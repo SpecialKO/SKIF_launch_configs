@@ -349,6 +349,15 @@
         "Dir": ""
       }
     ],
+    "1202130_Name": "Starship Troopers: Terran Command",
+    "1202130": [
+      {
+        "Desc": "Skip Launcher",
+        "Exe": "Starship Troopers.exe",
+        "Args": "",
+        "Dir": ""
+      }
+    ],
     "440_Name": "Team Fortress 2",
     "440": [
       {
