@@ -432,6 +432,51 @@
         "Args": "-forcestart -driver:dx12",
         "Dir": ""
       }
+    ],
+    "782330_Name": "DOOM Eternal",
+    "782330": [
+      {
+        "Desc": "Skips id Launcher, intro, loading prompt, log in and no console errors",
+        "Exe": "DOOMEternalx64vk.exe",
+        "Args": "+com_skipIntroVideo 1 +com_skipKeyPressOnLoadScreens 1 +com_skipSignInManager 1 +warning_disable all",
+        "Dir": ""
+      }
+    ],
+    "218620_Name": "PAYDAY 2",
+    "218620": [
+      {
+        "Desc": "Moderm CPU Instructions, disable gamepad, skip intro and use Steam Match Making",
+        "Exe": "payday2_win32_release.exe",
+        "Args": "-NewCPU -nojoy -skip_intro -steamMM",
+        "Dir": ""
+      }
+    ],
+    "550_Name": "Left 4 Dead 2",
+    "550": [
+      {
+        "Desc": "Low Violence, skip intro and disable motion blur",
+        "Exe": "left4dead2.exe",
+        "Args": "-lv -novid +mat_motion_blur_percent_of_screen_max 0",
+        "Dir": ""
+      }
+    ],
+    "24240_Name": "PAYDAY: The Heist",
+    "24240": [
+      {
+        "Desc": "Disable gamepad",
+        "Exe": "payday_win32_release.exe",
+        "Args": "-nojoy",
+        "Dir": ""
+      }
+    ],
+    "379720_Name": "DOOM",
+    "379720": [
+      {
+        "Desc": "Skip intro, loading prompts and start the game on singleplayer only",
+        "Exe": "DOOMx64.exe",
+        "Args": "+com_skipIntroVideo 1 +com_skipKeyPressOnLoadScreens 1 +com_gametype 0",
+        "Dir": ""
+      }
     ]
   }
 }
