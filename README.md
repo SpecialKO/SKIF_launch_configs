@@ -51,6 +51,8 @@ This example defines a custom `-nostartupmovie` launch configuration for the Ste
 
 * `Args` holds the command-line arguments to start the executable with.
   * These are known as the "launch options" in the Steam client and elsewhere.
+  * Note that SKIF will omit listing launch options in the "Instant Play" menu that shares the same command-line arguments as another option.
+    * Developer-provided options takes priority, so if an officially provided option is available to the user (e.g. through branch participation or DLC ownership), SKIF will omit any unofficial duplicates.
 
 * `Dir` holds the relative working directory used for the launched executable. This can be empty, in which case the folder of the executable is used instead.
   * The path is relative to the install folder of the game.
