@@ -73,6 +73,21 @@
         "Dir": ""
       }
     ],
+    "1623730_Name": "Palworld",
+    "1623730": [
+      {
+        "Desc": "DirectX 11",
+        "Exe": "Pal/Binaries/Win64/Palworld-Win64-Shipping.exe",
+        "Args": "-dx11",
+        "Dir": ""
+      },
+      {
+        "Desc": "DirectX 12",
+        "Exe": "Pal/Binaries/Win64/Palworld-Win64-Shipping.exe",
+        "Args": "-dx12",
+        "Dir": ""
+      }
+    ],
     "1158310_Name": "Crusader Kings III",
     "1158310": [
       {
