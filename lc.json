@@ -447,6 +447,27 @@
         "Args": "-forcestart -driver:dx12",
         "Dir": ""
       }
+    ],
+    "631510_Name": "Devil May Cry HD Collection",
+    "631510": [
+      {
+        "Desc": "Launch DMC1",
+        "Exe": "dmc1.exe",
+        "Args": "",
+        "Dir": ""
+      },
+      {
+        "Desc": "Launch DMC2",
+        "Exe": "dmc2.exe",
+        "Args": "",
+        "Dir": ""
+      },
+      {
+        "Desc": "Launch DMC3",
+        "Exe": "dmc3.exe",
+        "Args": "",
+        "Dir": ""
+      }
     ]
   }
 }
