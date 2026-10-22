@@ -447,6 +447,26 @@
         "Args": "-forcestart -driver:dx12",
         "Dir": ""
       }
+    ],
+    "2499860_Name": "DRAGON QUEST VII Reimagined",
+    "2499860": [
+      {
+        "Desc": "Force D3D11",
+        "Exe": "DQ7R\\Binaries\\Win64\\DQ7R-Win64-Shipping.exe",
+        "Args": "-d3d11",
+        "Dir": "DQ7R\\Binaries\\Win64\\"
+      }
+    ]
+  },
+  "Xbox": {
+    "39EA002F.DQ7_Name": "Dragon Quest VII Reimagined",
+    "39EA002F.DQ7": [
+      {
+        "Desc": "Force D3D11",
+        "Exe": "DQ7R\\Binaries\\WinGDK\\DQ7R-WinGDK-Shipping.exe",
+        "Args": "-d3d11",
+        "Dir": "DQ7R\\Binaries\\WinGDK\\"
+      }
     ]
   }
 }
